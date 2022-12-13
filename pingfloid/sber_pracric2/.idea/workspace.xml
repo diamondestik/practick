@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21b2e649-ca4b-46f0-b13f-31510cae3e03" name="Changes" comment="" />
+    <list default="true" id="21b2e649-ca4b-46f0-b13f-31510cae3e03" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/sidecar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/src/main/java/ru/sber/internship/sidecar/SidecarApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/src/main/java/ru/sber/internship/sidecar/controllers/GetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/src/main/java/ru/sber/internship/sidecar/models/studentClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/src/main/resources/static/Test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/src/test/java/ru/sber/internship/sidecar/SidecarApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/target/classes/ru/sber/internship/sidecar/SidecarApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/target/classes/ru/sber/internship/sidecar/controllers/GetController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/target/classes/ru/sber/internship/sidecar/models/studentClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/target/classes/static/Test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/target/sidecar-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/target/sidecar-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/target/surefire-reports/TEST-ru.sber.internship.sidecar.SidecarApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/target/surefire-reports/ru.sber.internship.sidecar.SidecarApplicationTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar/target/test-classes/ru/sber/internship/sidecar/SidecarApplicationTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +45,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/sbrf.practice.java.2022.12-main/sidecar" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -31,16 +63,16 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/jackdaniels/Документы/sber_request2/sbrf.practice.java.2022.12-main/sidecar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/jackdaniels/Документы/sber_request2/sbrf.practice.java.2022.12-main/sidecar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.sber.internship.sidecar" />
@@ -56,5 +88,16 @@
       <updated>1670607597870</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
