@@ -10,8 +10,6 @@ import java.awt.print.Pageable;
 public class SidecarApplication {
 
 	public static void main(String[] args) {
-//		RestTemplate restTemplate = new RestTemplate();
-//		restTemplate.getForObject("http://localhost:8080/file?filepath=/var/tmp/fruit.json", String.class);
 		SpringApplication.run(SidecarApplication.class, args);
 	}
 

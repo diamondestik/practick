@@ -1,0 +1,73 @@
+#!/bin/sh
+
+PROGRAM=add-apt-key
+KEYSERVER=pgp.mit.edu
+verbose=""
+
+error () {
+  local err="$1"
+  shift
+  echo "$*"
+  exit $err
+}
+
+usage () {
+  rv=$1
+  cat >&2 <<EOF
+usage: $PROGRAM [-h|--help] [-v|--verbose] [-k|--keyserver name] key-id
+EOF
+  exit $rv
+}
+
+vecho () {
+  [ -z "$verbose" ]  || echo >&2 "$@"
+}
+
+vcmd () {
+  vecho $*
+  $*
+}
+
+if [ -x /usr/bin/id ] && [ `id -u` -ne 0 ]; then
+  error 1 "$PROGRAM can only run as root"
+fi
+
+if [ -e /etc/default/add-apt-key ]; then
+  . /etc/default/add-apt-key
+fi
+
+keyid=""
+while [ "$#" -gt 0 ]; do
+  case "$1" in
+    -v|--verbose)
+      verbose=yes;;
+    -h|--help)
+      usage 0;;
+    -k|--keyserver)
+      [ "$#" -gt 1 ] || usage 1
+      KEYSERVER=$2
+      shift;;
+    -*)
+      usage 1;;
+    *)
+      [ -z "$keyid" ] || usage 1
+      keyid="$1"
+      ;;
+   esac
+   shift
+done
+
+[ "$#" -eq 0 ] || usage 1
+[ -n "$keyid" ] || usage 1
+
+vecho "requesting key $keyid from $KEYSERVER ..."
+vcmd gpg --keyserver $KEYSERVER --recv-keys $keyid
+[ "$?" -eq 0 ] || error 3 "key $keyid not found"
+
+vecho "adding $keyid to APT key ring ..."
+vcmd gpg --armor --export $keyid | apt-key add -
+[ "$?" -eq 0 ] || error 4 "unable to add key $keyid to apt-key ring"
+
+vecho "done"
+
+exit 0
